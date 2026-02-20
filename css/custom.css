@@ -1,0 +1,12 @@
+/* 隐藏不蒜子统计的假数字/真实数字（通用） */
+#busuanzi_container,
+.busuanzi-count,
+.site-statistics {
+  display: none !important;
+}
+
+/* 针对 Butterfly 新版的额外隐藏（防止漏网） */
+.footer-statistics,
+.post-meta-pv {
+  display: none !important;
+}
